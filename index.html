@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" type="image/x-icon" href="assets/spotify_logo.png">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img src="assets/logo.png" alt=""></div>
+                <ul>
+                    <li><img class="invert" src="assets/home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="assets/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="assets/library.svg" alt="">
+                    <h2>
+                        Your library
+                    </h2>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy
+                                Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+
+                <div class="nav">
+                    <svg class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        color="#000000" fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        color="#000000" fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylist">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <g transform="translate(2, 2)">
+                                    <path
+                                        d="M16.8906 10.846C16.5371 12.189 14.8667 13.138 11.5257 15.0361C8.296 16.8709 6.6812 17.7884 5.37983 17.4196C4.8418 17.2671 4.35159 16.9776 3.95624 16.5787C3 15.6139 3 13.7426 3 10C3 6.2574 3 4.3861 3.95624 3.42132C4.35159 3.02245 4.8418 2.73288 5.37983 2.58042C6.6812 2.21165 8.296 3.12907 11.5257 4.96393C14.8667 6.86197 16.5371 7.811 16.8906 9.154C17.0365 9.7084 17.0365 10.2916 16.8906 10.846Z"
+                                        stroke="black" stroke-width="1" stroke-linejoin="round" fill="black" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f0000000249a1ed33d2ca64e6a5d0e550" alt="Happy Hits">
+                        <h2>Happy Hits</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+</body>
+
+</html>
+
