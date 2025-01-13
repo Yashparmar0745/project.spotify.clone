@@ -74,6 +74,7 @@ body{
 
 .right{
     margin: 16px 0;
+    position: relative;
 }
 
 .footer{
@@ -182,4 +183,15 @@ body{
 .loginbtn:hover{
     font-weight: bold;
     font-size: 17px;
+}
+
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: #a3cfb3;
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
